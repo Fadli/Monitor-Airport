@@ -1,0 +1,129 @@
+[
+  {
+    "no": 1,
+    "airline": "https://awsimages.detik.net.id/content/2009/07/23/4/Garuda-Logo-Vertical-dalam.jpg",
+    "flight_no": "GT-270",
+    "destination": "Pekan Baru",
+    "time": "12:01:59",
+    "gate": "G2",
+    "status": "Landed"
+  },
+  {
+    "no": 2,
+    "airline": "https://pinterpoin.com/wp-content/uploads/2018/12/Lion-Air-Logo.jpg",
+    "flight_no": "GT-271",
+    "destination": "Sultan Iskanda Muda",
+    "time": "16:01:59",
+    "gate": "G2",
+    "status": "Landed"
+  },
+  {
+    "no": 3,
+    "airline": "https://awsimages.detik.net.id/content/2009/07/23/4/Garuda-Logo-Vertical-dalam.jpg",
+    "flight_no": "JT-322",
+    "destination": "Pekan Baru",
+    "time": "12:01:59",
+    "gate": "G1",
+    "status": "Landed"
+  },
+  {
+    "no": 4,
+    "airline": "https://w7.pngwing.com/pngs/697/90/png-transparent-airasia-malaysia-flight-airline-travel-travel-love-text-logo-thumbnail.png",
+    "flight_no": "JT-222",
+    "destination": "Kualanamu Medan",
+    "time": "13:01:59",
+    "gate": "G5",
+    "status": "Delay"
+  }
+  ,
+  {
+    "no": 5,
+    "airline": "https://w7.pngwing.com/pngs/697/90/png-transparent-airasia-malaysia-flight-airline-travel-travel-love-text-logo-thumbnail.png",
+    "flight_no": "AT-232",
+    "destination": "Kualanamu Medan",
+    "time": "13:01:59",
+    "gate": "G5",
+    "status": "Delay"
+  },
+  {
+    "no": 6,
+    "airline": "https://w7.pngwing.com/pngs/697/90/png-transparent-airasia-malaysia-flight-airline-travel-travel-love-text-logo-thumbnail.png",
+    "flight_no": "JT-332",
+    "destination": "Kualanamu Medan",
+    "time": "13:01:59",
+    "gate": "G5",
+    "status": "On Time"
+  },
+  {
+    "no": 7,
+    "airline": "https://w7.pngwing.com/pngs/697/90/png-transparent-airasia-malaysia-flight-airline-travel-travel-love-text-logo-thumbnail.png",
+    "flight_no": "JT-332",
+    "destination": "Kualanamu Medan",
+    "time": "13:01:59",
+    "gate": "G5",
+    "status": "On Time"
+  },
+  {
+    "no": 8,
+    "airline": "https://w7.pngwing.com/pngs/697/90/png-transparent-airasia-malaysia-flight-airline-travel-travel-love-text-logo-thumbnail.png",
+    "flight_no": "JT-332",
+    "destination": "Bandar Udara Internasional Ngurah Rai",
+    "time": "13:01:59",
+    "gate": "G5",
+    "status": "On Time"
+  },
+  {
+    "no": 9,
+    "airline": "https://w7.pngwing.com/pngs/697/90/png-transparent-airasia-malaysia-flight-airline-travel-travel-love-text-logo-thumbnail.png",
+    "flight_no": "JT-332",
+    "destination": "Kualanamu Medan",
+    "time": "13:01:59",
+    "gate": "G5",
+    "status": "On Time"
+  },
+  {
+    "no": 10,
+    "airline": "https://seremonia.id/wp-content/uploads/2018/07/logo-batik-air.jpg",
+    "flight_no": "JT-332",
+    "destination": "Bandar Udara Internasional Jenderal Ahmad Yani",
+    "time": "13:01:59",
+    "gate": "G5",
+    "status": "On Time"
+  },
+  {
+    "no": 11,
+    "airline": "https://w7.pngwing.com/pngs/697/90/png-transparent-airasia-malaysia-flight-airline-travel-travel-love-text-logo-thumbnail.png",
+    "flight_no": "JT-744",
+    "destination": "Bandar Udara Internasional Adisutjipto",
+    "time": "13:01:59",
+    "gate": "G5",
+    "status": "On Time"
+  },
+  {
+    "no": 12,
+    "airline": "https://logowik.com/content/uploads/images/citilink1681.jpg",
+    "flight_no": "JT-243",
+    "destination": "Bandar Udara Internasional Husein Sastranegara",
+    "time": "13:01:59",
+    "gate": "G5",
+    "status": "Landed"
+  },
+  {
+    "no": 13,
+    "airline": "https://w7.pngwing.com/pngs/697/90/png-transparent-airasia-malaysia-flight-airline-travel-travel-love-text-logo-thumbnail.png",
+    "flight_no": "JT-777",
+    "destination": "Bandar Udara Radin Inten II",
+    "time": "13:01:59",
+    "gate": "G5",
+    "status": "Last Call"
+  },
+  {
+    "no": 14,
+    "airline": "https://logowik.com/content/uploads/images/citilink1681.jpg",
+    "flight_no": "JT-544",
+    "destination": "Bandar Udara Pattimura",
+    "time": "13:01:59",
+    "gate": "G5",
+    "status": "Boarding"
+  }
+]

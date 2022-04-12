@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+		<meta http-equiv="refresh" content="360">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Soekarno Hatta Airport</title>
+
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+        <style type="text/css">
+        	
+        	body {
+        		background-color:#000455; color: #ffff;
+        		font-family: arial;
+        	}
+        	table {
+			  background:#6666669;
+			  border-radius: 0.25em;
+			  border-collapse: collapse;
+			  
+			}
+			th {
+			  border-bottom: 1px solid #364043;
+			  color: #E2B842;
+			  font-size: 20px;
+			  font-weight: 600;
+			  padding: 0.5em 1em;
+			  text-align: left;
+			}
+			td {
+			  color: #fff;
+			  font-weight: 400;
+			  padding: 0.65em 1em;
+			  font-size: 20px;
+			}
+			.disabled td {
+			  color: #4F5F64;
+			}
+			tbody tr {
+			  transition: background 0.25s ease;
+			  padding:10px;
+			}
+			tbody tr:hover {
+			  background: #014055;
+			}
+
+        </style>
+
+</head>
+  <body>
+</div>
+
+<div class="row">
+	<div class="col-md-12" >
+		<h1>Departures</h1>
+		<table width="100%" >
+		  <thead>
+			<tr>
+		      <th width="15%"></th>
+			  <th width="20%">Flight No </th>
+			  <th width="40%">Destination </th>
+			  <th width="10%">Time </th>
+			  <th width="10%">Gate </th>
+			  <th width="30%">Status </th>
+		  </thead>
+		  <tbody class="data">
+
+		  </tbody>
+		</table>
+	</div>
+</div>
+
+
+<script>
+
+	$(document).ready( function() {
+             done();
+    });
+            
+    function done() {
+                  setTimeout( function() { 
+                  updates(); 
+                  done();
+                  }, 1000);
+    }
+    function updates() {
+               $.getJSON("data_flight.json", function(data) {
+	           $(".data").empty();
+	           $.each(data, function(){
+	                var badge="";
+
+	                if(this['status']=="Landed") { badge="success"; } else if (this['status']=="Delay") { badge="danger"; } else { badge="primary"; }
+
+	                $(".data").append("<tr><td><img src='"+this['airline']+"' width='100%'></td><td>"+this['flight_no']+"</span></td><td>"+this['destination']+"</td><td>"+this['time']+"</td><td>"+this['gate']+"</td><td><span class='badge badge-lg badge-"+badge+"'>"+this['status']+"</span></td></tr>");
+	           });
+	           });
+    };
+
+</script>
+
+</body>
+</html>
